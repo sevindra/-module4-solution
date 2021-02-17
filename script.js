@@ -58,7 +58,7 @@ for (var i = 0; i < names.length; i++) {
   var res = str.charAt(0);
   var result=res.includes('J');
   if (!result) {
-  SpeaksHello(names[i]);
+  helloSpeaker(names[i]);
   } else{
     SpeakGoodBye(names[i]);
   }
