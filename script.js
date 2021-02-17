@@ -60,6 +60,6 @@ for (var i = 0; i < names.length; i++) {
   if (!result) {
   helloSpeaker(names[i]);
   } else{
-    SpeakGoodBye(names[i]);
+    byeSpeaker(names[i]);
   }
 }
